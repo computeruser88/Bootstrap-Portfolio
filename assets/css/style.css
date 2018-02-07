@@ -1,3 +1,6 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 .navbar-light .navbar-brand {
     height: 130%;
     line-height: 10px;
@@ -17,16 +20,38 @@
     top: 0;
     z-index: 5;
 }
+.navbar-expand-lg .navbar-nav .nav-link  {
+    display: inline;
+    margin-right: 20%;
+    padding: 0;
+    font-size: 14px;
+    line-height: 500%;
+    text-decoration: none;
+    color: #aaaaaa;
+    transition-duration: 0.4s;
+
+}
 .row {
     position: relative;
     margin-top: 5%;
+}
+.card {
+    margin: 0 10%;  
+    padding-left: 0;
+    padding-right: 0;
+}
+.card .card-title {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #4aaaa5;
 }
 .card .card-block {
     width: 100%;
     margin: 0 10%;
 }
 hr {
-    width: 90%;
+    width: 80%;
+    padding-left: 0;
     margin-left: 0;
 }
 .card .card-block .card-text {
@@ -42,8 +67,10 @@ figure img {
     height: 185px;
     z-index: 1;
 }
-figcaption {
+.figure-caption {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     background: #4aaaa5;
+    color: #ffffff;
     position: relative;
     bottom: 100px;
     height: 50px; 
