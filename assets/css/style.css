@@ -3,6 +3,7 @@
 }
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
     background-image: url("../images/dust_scratches.png");
 }
 .navbar-light .navbar-brand {
@@ -17,6 +18,21 @@ body {
     background: #4aaaa5;
 }
 .navbar-light:hover .navbar-brand:hover {
+    color: #ffffff;
+}
+.navbar-light:focus .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar-light:active .navbar-brand:active {
+    color: #ffffff;
+}
+.navbar-light:link .navbar-brand:link {
+    color: #ffffff;
+}
+.navbar-light:root .navbar-brand:root {
+    color: #ffffff;
+}
+.navbar-light:visited .navbar-brand:visited {
     color: #ffffff;
 }
 .navbar {
@@ -78,6 +94,7 @@ hr {
 .card .card-block .card-text {
     width: 90%;
     padding: 10px 0 0 10%;
+    color: #777777;
 }
 figure {
     padding: 0;
