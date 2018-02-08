@@ -95,6 +95,7 @@ hr {
     width: 90%;
     padding: 10px 0 0 10%;
     color: #777777;
+    text-align: justify;
 }
 figure {
     padding: 0;
