@@ -72,12 +72,12 @@ body {
 }
 hr {
     width: 100%;
-    padding-left: 0;
-    margin-left: 0;
+    padding: 0;
+    margin: 0;
 }
 .card .card-block .card-text {
     width: 90%;
-    padding: 0 10% 0% 10%;
+    padding: 10px 10% 0% 10%;
 }
 figure {
     padding: 0;
@@ -140,7 +140,8 @@ figure:hover {
 }
 #bio-image {
     float: left;
-    margin-left: 10%;;
+    margin-top: 20px;
+    margin-left: 10%;
     margin-bottom: 20px;
     padding-right: 20px;
 }
