@@ -133,8 +133,8 @@ figure:hover {
     position: relative;
     left: 30px;
     top: 10px;
-    max-height: 40px;
-    width: 40px;
+    max-height: 50px;
+    width: 50px;
     padding: 0;
     opacity: 1.0;
     transition-duration: 0.4s;
@@ -143,9 +143,9 @@ figure:hover {
     position: relative;
     top: 10px;
     left: 30px;
-    max-height: 36px;
-    max-width: 37px;
-    width: 40px;
+    max-height: 45px;
+    max-width: 45px;
+    width: 50px;
     padding: 0;
     opacity: 1.0;
     transition-duration: 0.4s;
