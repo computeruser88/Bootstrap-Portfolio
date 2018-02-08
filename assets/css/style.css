@@ -141,9 +141,8 @@ figure:hover {
 }
 #bio-image {
     float: left;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 10%;
-    margin-bottom: 20px;
     padding-right: 20px;
 }
 .form-control {
