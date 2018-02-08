@@ -208,7 +208,7 @@ input {
     border-top: 5px #4aaaa5 solid;
     height: 60px;
     line-height: 500%;;
-    background-color: #f5f5f5;
+    background: #777777;
     font-size: 12px;
     text-align: center;
     z-index: 5;
