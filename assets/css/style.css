@@ -5,6 +5,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #ffffff;
     background-image: url("../images/dust_scratches.png");
+    display: flex;
 }
 .navbar {
     position: fixed;
@@ -259,7 +260,4 @@ input {
         margin: 0;
         padding: 0;
     }   
-}
-@media screen and (min-width: 768px){
-    
 }
