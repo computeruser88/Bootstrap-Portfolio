@@ -6,13 +6,28 @@ body {
     color: #ffffff;
     background-image: url("../images/dust_scratches.png");
 }
-.navbar-light .navbar-brand {
-    height: 130%;
-    line-height: 10px;
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: inline;
+    margin: 0;
+    width: 100%;
+    height: 75px;
+    top: 0;
+    z-index: 5;
+    background: #ffffff;
+    border-bottom: 1px #dddddd solid;
+}
+.navbar-brand {
+    position: fixed;
+    left: 180px;
+    top: 0;
+    height: 75px;
+    line-height: 300%;
+    padding: 0 50px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: bold;
-    padding: 30px;
-    margin: 0 10%;
     font-size: 24px;
     color: #ffffff;
     background: #4aaaa5;
@@ -35,28 +50,30 @@ body {
 .navbar-light:visited .navbar-brand:visited {
     color: #ffffff;
 }
-.navbar {
-    position: fixed;
-    width: 100%;
-    padding-left: 3%;
-    padding-right: 15%;
-    height: 10%;
-    top: 0;
-    z-index: 5;
-    background: #ffffff;
-    border-bottom: 1px #dddddd solid;
-}
-.navbar-expand-lg .navbar-nav .nav-link  {
+div .navbar-nav  {
     display: inline;
-    margin-right: 20%;
+    width: 20%;
+    float: right;
+    margin-right: 50px; 
+    font-size: 14px;
+    line-height: 400%;
+    color: #aaaaaa;
+    transition-duration: 0.4s;
+}
+.nav-link {
+    display: inline;
     padding: 0;
+    margin: 0 10px;
+}
+.nav-item .nav-link  {
+    display: inline;
     font-size: 14px;
     line-height: 500%;
     text-decoration: none;
     color: #aaaaaa;
     transition-duration: 0.4s;
 }
-.navbar-expand-lg:hover .navbar-nav:hover .nav-link:hover {
+.navbar-nav:hover .nav-link:hover {
     transform: scale(1.1);
     color: #000000;
 }
@@ -68,6 +85,7 @@ body {
 }
 .card {
     border: none;
+    display:
     margin: 0;
     padding: 0;
 }
@@ -213,3 +231,35 @@ input {
     text-align: center;
     z-index: 5;
   }
+  @media screen and (max-width: 767px) {
+    body {
+        text-align: center; 
+    }
+    .navbar {
+        position: fixed;
+        margin: 0;
+        width: 100%;
+        height: 150px;
+        top: 0;
+        z-index: 5;
+        background: #ffffff;
+        border-bottom: 1px #dddddd solid;
+    }
+    .navbar-brand {
+        position: fixed;
+        height: 75px;
+        line-height: 300%;
+        display: block;
+        width: 100%;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    div .navbar-nav  {
+        margin: 0;
+        padding: 0;
+    }   
+}
+@media screen and (min-width: 768px){
+    
+}
