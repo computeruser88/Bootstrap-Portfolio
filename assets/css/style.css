@@ -89,7 +89,6 @@ div .navbar-nav  {
 }
 .card {
     border: none;
-    display:
     margin: 0;
     padding: 0;
     min-width: 300px;
@@ -130,7 +129,8 @@ figure img {
     position: relative;
     margin: 20px;
     top: 0; 
-    height: 185px;
+    width: 300px;
+    min-height: 200px;
     z-index: 1;
 }
 .figure-caption {
