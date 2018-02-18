@@ -325,6 +325,9 @@ input[type="text"] {
     }
 }
 @media all and (max-width: 640px) {
+    .card .card-block .card-text {
+        text-align: left;
+    }
     #bio-image {
     float: left;
     width: 140px;
